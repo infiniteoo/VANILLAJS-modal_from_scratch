@@ -59,6 +59,11 @@ body {
   border-top-right-radius: 5px;
 }
 
+.modal-body {
+  padding: 10px 20px;
+  background: #fff;
+}
+
 .close {
   color: #ccc;
   float: right;
