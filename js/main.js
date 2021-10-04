@@ -6,3 +6,9 @@ const closeBtn = document.querySelector("close");
 modalBtn.addEventListener("click", openModal);
 closeBtn.addEventListener("click", closeModal);
 window.addEventListener("click", outsideClick);
+
+// open
+function openModal() {
+    modal.style.display = "block";
+}
+
