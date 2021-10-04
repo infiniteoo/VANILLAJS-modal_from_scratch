@@ -45,3 +45,16 @@ body {
   animation-name: modalopen;
   animation-duration: var(--modal-duration);
 }
+
+.modal-header h2,
+.modal-footer h3 {
+  margin: 0;
+}
+
+.modal-header {
+  background: var(--modal-color);
+  padding: 15px;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
