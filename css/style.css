@@ -64,6 +64,15 @@ body {
   background: #fff;
 }
 
+.modal-footer {
+  background: var(--modal-color);
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
 .close {
   color: #ccc;
   float: right;
