@@ -72,3 +72,12 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
