@@ -13,3 +13,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.button {
+  background: var(--modal-color);
+  padding: 1em 2em;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
